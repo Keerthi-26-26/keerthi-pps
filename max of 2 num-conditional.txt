@@ -1,0 +1,10 @@
+int num1 , num2 , maximum;
+	printf("Enter 2numbers:");
+	scanf("%d%d",&num1,&num2);
+
+    maximum =(num1 > num2)? num1:num2;
+    printf("Maximum of two numbers is %d",maximum);
+		
+	return 0;
+    
+}

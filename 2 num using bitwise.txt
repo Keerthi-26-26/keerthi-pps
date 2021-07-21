@@ -1,0 +1,12 @@
+int main()  {
+int a , b;
+	printf("Enter any 2 numbers:");
+	scanf("%d%d",&a,&b);
+	printf("a & b is %d",a&b);
+	printf("\n a | b is %d",a|b);
+	printf("\n a ^ b is %d",a^b);
+	printf("\n The value of a after left shift  is %d",a<<1);
+	printf("\n The value of a after right shift is %d",a>>2);
+	printf("\n~a is %d",~a);
+	return 0;
+}
