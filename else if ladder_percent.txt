@@ -1,0 +1,14 @@
+int main()  {
+float percentage ;
+    printf("Enter your percentage : ");
+	scanf("%f",&percentage);
+	if(percentage <=40)
+	printf("Failed");
+	else if(percentage>40 && percentage<=60)
+	printf("Second class");
+	else if(percentage>60 && percentage<70)
+	printf("First class");
+	else 
+	printf("Distinction");
+	return 0;
+}
