@@ -1,0 +1,10 @@
+int main()  {
+	struct student
+{
+	int rollno;
+	char name[20];
+	float marks;
+   printf("%d",sizeof(struct student));
+}
+return 0;
+}

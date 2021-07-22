@@ -1,0 +1,9 @@
+int main()  {
+int len;
+	char str[100];
+	printf("Enter a string:");
+	gets(str);
+	len = strlen(str);
+	printf("\n Length of the string is %d\n",len);
+	return 1;
+}
